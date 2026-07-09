@@ -10,7 +10,7 @@ function AudioPlayer() {
   const soundRef = useRef(null);
 
   const tracks = useMemo(
-    () => ['/music/Shape of My Heart.wav'],
+    () => ['/music/Shape of My Heart.mp3'],
     [],
   );
 
