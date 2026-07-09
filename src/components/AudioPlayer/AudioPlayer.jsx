@@ -10,7 +10,7 @@ function AudioPlayer() {
   const soundRef = useRef(null);
 
   const tracks = useMemo(
-    () => ['/music/Shape of My Heart.mp3'],
+    () => [encodeURI(`${import.meta.env.BASE_URL}music/Shape of My Heart.mp3`)],
     [],
   );
 
